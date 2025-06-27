@@ -37,7 +37,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { insertProjectSchema, type ProjectWithClient, type Client } from "@shared/schema";
+//import { insertProjectSchema, type ProjectWithClient, type Client } from "@shared/schema";
 import { z } from "zod";
 import { Plus, Edit, Trash2, Search } from "lucide-react";
 import { Layout } from "@/components/layout";
