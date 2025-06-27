@@ -7,12 +7,12 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { 
-  insertSectorSchema, 
-  type SectorWithClient, 
-  type InsertSector, 
-  type Client 
-} from "@shared/schema";
+//import { 
+//  insertSectorSchema, 
+//  type SectorWithClient, 
+//  type InsertSector, 
+//  type Client 
+// } from "@shared/schema";
 import { apiRequest, queryClient } from "@/lib/queryClient";
 import { Save, Edit, Trash2, Plus } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
