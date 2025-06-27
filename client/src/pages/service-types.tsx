@@ -6,11 +6,11 @@ import { Input } from "@/components/ui/input";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { 
-  insertServiceTypeSchema, 
-  type ServiceType, 
-  type InsertServiceType
-} from "@shared/schema";
+//import { 
+//  insertServiceTypeSchema, 
+//  type ServiceType, 
+//  type InsertServiceType
+//} from "@shared/schema";
 import { apiRequest, queryClient } from "@/lib/queryClient";
 import { Save, Edit, Trash2, Plus } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
