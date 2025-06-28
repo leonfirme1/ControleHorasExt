@@ -36,6 +36,7 @@ export default defineConfig(async () => {
         strict: true,
         deny: ["**/.*"],
       },
+      allowedHosts: ['controlehorasext-production.up.railway.app'],
     },
   };
 });
